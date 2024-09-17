@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form class="registration-form">
+            <h3>User Registration</h3>
+            <div class="form-group">
+                <label for="login">Login</label>
+                <input type="text" id="login" placeholder="123abc...">
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="error">Email</label>
+                <input class="email-input" type="email" id="email" placeholder="tea@email.com">
+                <span class="error-message">Invalid Email value</span>
+            </div>
+
+            <div class="form-group"></div>
+                <label for="password">Passord</label>
+                <input type="password" id="password" placeholder="******">
+            </div>
+
+            <div class="form-group"></div>
+                <label for="confirm-password">Confirm passord</label>
+                <input type="password" id="confirm-password" placeholder="******">
+            </div>
+
+            <div class="form-actions">
+                <button class="to-login">To login</button>
+                <div class="button-group">
+                    <button class="registration-button" type="submit">Register</button>
+                    <button class="clear-button" type="reset">Clear</button>
+                </div>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
